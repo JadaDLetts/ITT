@@ -1,0 +1,22 @@
+body {
+  background-color: powderblue;
+  margin: auto;
+  margin-top: 200px;
+  max-width: 750px;
+  border: solid;
+  border-color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.row1 {
+  padding-left: 40%;
+}
+
+input {
+  margin-left: 15%;
+  max-width: 500px;
+}
+small {
+  margin-left: 50%;
+}
