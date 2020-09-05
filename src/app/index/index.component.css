@@ -5,6 +5,7 @@ body {
   border-color: black;
   font-family: "Times New Roman";
   max-width: 500px;
+  margin-top: 25px;
 }
 
 p.contact {
