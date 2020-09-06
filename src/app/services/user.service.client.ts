@@ -3,8 +3,8 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserService {
   users = [
-    {_id: '123', username: 'alice', password: 'alice'},
-    {_id: '234', username: 'bob', password: 'bob'}
+    {_id: '123', username: 'alice', password: 'alice', email: 'a@g.com'},
+    {_id: '234', username: 'bob', password: 'bob', email: 'b@g.com'}
   ];
 
   findUserByCredentials(username: String, password: String) {
