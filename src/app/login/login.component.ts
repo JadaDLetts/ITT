@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Router } from '@angular/router';
 import {UserService} from "../services/user.service.client";
-import {isAsciiLetter} from "codelyzer/angular/styles/chars";
 
 @Component({
   selector: 'login',
