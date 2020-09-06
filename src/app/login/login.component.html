@@ -19,14 +19,19 @@
       Email address
     </label>
 <!--    <input type="email" class="form-control" placeholder="Enter email">-->
-    <input type="email" class="form-control" placeholder="Enter Email" [(ngModel)]="email">
+    <input type="text"
+           placeholder="Enter Username"
+           [(ngModel)]="username" name="username">
+    <!--           class="form-control"-->
   </div>
   <div class="form-group">
     <label>
       Password
     </label>
 <!--    <input type="password" class="form-control"placeholder="Password">-->
-    <input type="password" class="form-control"placeholder="Password" [(ngModel)]="password">
+    <input type="password"
+           class="form-control"
+           placeholder="Enter Password" [(ngModel)]="password" name="password">
     <small>
       <a href="../forgotPassword/forgotPassword.html">
         Forgot Password?
@@ -38,7 +43,7 @@
 
   <div class="row-1">
 <!--<button (click)="login()">Login</button>-->
-    <a class="btn btn-dark btn-lg col-6" (click)="login()">
+    <a class="btn btn-dark btn-lg col-6" (click)="login(username, password)">
       Login
     </a>
   </div>
@@ -63,11 +68,6 @@
 <br>
 <br>
 <br>
-<!--
-		<p>Check out a list of <a href="myPlans" >my plans.</a></p>
 
-		<p>Check out a list of <a href="myWork" >my work.</a></p>
-
-		<p>CHeck out <a target="_google" href="http://google.com"> Google.</a> -->
 </body>
 </html>
