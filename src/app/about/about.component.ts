@@ -3,11 +3,11 @@ import {ActivatedRoute} from '@angular/router';
 import {UserService} from '../services/user.service.client';
 
 @Component({
-  selector: 'dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.css']
+  selector: 'about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class AboutComponent implements OnInit {
 
   constructor(private userService: UserService,
               private activatedRoute: ActivatedRoute) { }
