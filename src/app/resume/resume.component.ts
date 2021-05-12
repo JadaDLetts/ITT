@@ -12,5 +12,5 @@ export class ResumeComponent implements OnInit {
   ngOnInit(): void {
 
   }
-  pdfSource =  "./Resume.pdf";
+  pdfSource =  "../assets/Resume.pdf";
 }

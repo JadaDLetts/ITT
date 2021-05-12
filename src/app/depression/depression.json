@@ -1,0 +1,55 @@
+{
+  "quiz": {
+    "Id": 1,
+    "name": "Depression Quiz",
+    "description": "Quiz to test for depression"
+  },
+  "questions": [
+    {
+      "Id": 1010,
+      "Name": "Have you felt like it takes a lot of effort to do simple tasks",
+      "QuestionTypeId": 1,
+      "Options": [
+        {
+          "Id": 1055,
+          "QuestionId": 1010,
+          "Name": "Never",
+          "value": 0
+        },
+        {
+          "Id": 1056,
+          "QuestionId": 1010,
+          "Name": "A little",
+          "value": 1
+        },
+        {
+          "Id": 1057,
+          "QuestionId": 1010,
+          "Name": "Sometimes",
+          "value": 2
+        },
+        {
+          "Id": 1058,
+          "QuestionId": 1010,
+          "Name": "Moderately",
+          "value": 3
+        },
+        {
+          "Id": 1059,
+          "QuestionId": 1010,
+          "Name": "Most of the time",
+          "value": 4
+        },   {
+          "Id": 1060,
+          "QuestionId": 1010,
+          "Name": "Always",
+          "value": 5
+        }
+      ],
+      "QuestionType": {
+        "Id": 1,
+        "Name": "Multiple Choice"
+      }
+    }
+  ]
+}
