@@ -8,7 +8,6 @@ import {MatCardModule} from '@angular/material/card';
   selector: 'app-depression',
   templateUrl: './depression.component.html',
   styleUrls: ['./depression.component.css'],
-
 })
 
 
